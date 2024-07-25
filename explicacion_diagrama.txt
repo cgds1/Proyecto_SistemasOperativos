@@ -1,0 +1,29 @@
+1. Inicio: El programa comienza.
+2. ask():
+    *Pregunta al usuario si desea ingresar los datos manualmente o automáticamente.
+3. Decisión: Ingresar datos manualmente o automáticamente?:
+    *Si es manual, se utiliza un bucle for para ingresar los datos ti y t de cada tarea.
+    *Si es automático, se llama a llenado_arrays().
+4. llenado_arrays():
+    *Abre datos.txt.
+    *Lee y parsea los datos del archivo.
+5. Ingresar Quantum: El usuario ingresa el valor del quantum.
+6. correr_algoritmo(): Se llama a la función para ejecutar los algoritmos (FIFO, LIFO, RR).
+    *FIFO:
+        *Se llama a la función fifo().
+        *Luego se llama a calculos_basicos() para calcular las métricas T, E, I.
+        *Se muestran los resultados.
+        *Se llama a vaciar(arr) para limpiar los datos antes de ejecutar el siguiente algoritmo.
+    *LIFO:
+        *Se llama a la función lifo().
+        *Luego se llama a calculos_basicos() para calcular las métricas T, E, I.
+        *Se muestran los resultados.
+        *Se llama a vaciar(arr) para limpiar los datos antes de ejecutar el siguiente algoritmo.
+    *RR:
+        *Se llama a la función RR().
+        *Luego se llama a calculos_basicos() para calcular las métricas T, E, I.
+        *Se muestran los resultados.
+7. Comparar efectividad y tiempos: Se comparan los resultados de los tres algoritmos en términos de efectividad y tiempos de ejecución.
+8. Mostrar recomendaciones: El programa muestra cuál algoritmo es más eficiente para la tarea.
+9. Reproducir video: Se reproduce un video.
+10. Fin: El programa termina.
